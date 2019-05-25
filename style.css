@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: red;
+
+}
+h1{
+  color: white;
+  padding: 20px;
+  
+}
+h2{
+  margin: 20px 400px;
+}
+.input-added{
+  width: 150px;
+  height: 35px;
+  color: blue;
+}
+.button-added{
+  width: 150px;
+  height: 35px;
+  margin: 5px;
+  margin: 5px 5px 5px 20px;
+}
+#input-button{
+  border: 1px solid;
+  width: 170px;
+  background-color: red;
+  margin: 15px 5px 5px 20px;
+}
+p{
+  margin: 5px 5px 5px 20px;
+}
+.color-selector{
+  width: 30px;
+  height: 20px;
+  margin:  15px 5px 5px 20px;
+}
+.input-class{
+  margin: 0px 0px 0px 500px;
+}

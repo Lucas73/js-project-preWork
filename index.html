@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proyecto js</title>
+  <link href="style.css" rel="styleSheet" type="text/css">
+</head>
+<body>
+  <header>  
+    <h1>Generador de Formularios</h1>
+  </header>
+  <h2>Seleccione los campos que desea añadir a su formulario.</h2>
+  <p>Cree los campos personalizados de su formulario escribiendo el nombre y dándole después a añadir.</p>
+  <p>Ejemplo: Nombre.. Apellidos.. Email..</p>
+  <p>Si además desea añadir campo de texto para comentarios, selecciónelo.</p>
+  <p>Y por último escoja el color de los campos.</p>
+  <div id="input-button">
+    <div>
+      <input class="input-added" type="text" id="cell-name" placeholder="Nombre del nuevo campo.." style="margin:5px">
+    </div>
+    <div>
+      <button class="button-added" onclick="addInputArea()">Añadir +</button>
+    </div>
+  </div>
+    <div>
+      <button  class="button-added" onclick="addTextArea()">Crear Campo de texto</button> 
+    </div>
+    <div>
+        <button class="color-selector" style="background-color:white" onclick="changeColor('white')">O</button><button class="color-selector" style="background-color:orange" onclick="changeColor('orange')">O</button><button class="color-selector" style="background-color:green" onclick="changeColor('green')">O</button><button class="color-selector" style="background-color:blue" onclick="changeColor('blue')">O</button>
+    </div>
+  <form>
+    <div id="root"></div>
+  </form>
+</body>
+  <script src="index.js"></script>
+</html>
